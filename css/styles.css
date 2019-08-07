@@ -1,0 +1,38 @@
+.text-colorA{
+	color:#cc1818;
+	/*Dynamic*/
+	/*color:#e6183f;*/
+	/*color:#16120f;*/
+}
+
+body{
+	margin:0;
+	padding: 0;
+
+}
+
+#banner-image{
+	/*background-color: rgba(0,0,0,0.6);*/
+	background-blend-mode: multiply;
+	background-image: url('../img/intro-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	/*background-attachment: fixed;*/
+}
+
+.top-nav-collapse{
+	background-color: #212121;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12) !important;
+}
+
+.navbar{
+	box-shadow: unset;
+}
+.subtitulo{
+	font-size: 2rem;
+	color: #a6a6a6; 
+}
+
+/*animatioon*/
+
