@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+:root {
+    --m-primary-color: #0892D0;
+    --m-bg-color:#222530;
+    --m-bg-color-dark:#1b1e27;
+    --m-text-color:#E8E8E8;
+    --m-muted-color:rgba(134, 134, 134, 0.5);
+    --m-muted-color-active:rgba(134, 134, 134, 0.9);;
+}
+*,body{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(36, 36, 36);
+    margin:0;
+    padding: 0;
+    background-color:var(--m-bg-color);
+    color:var(--m-text-color);
+}
+
+.text-blue{
+    color:var(--m-primary-color);
+}
+
+.color-muted {
+    color:var(--m-muted-color);
+}
+    .color-muted i {
+        color:var(--m-muted-color);
+    }
+
+    .color-muted p {
+        color:var(--m-muted-color);
+    }
+
+.borderMenu{
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.borderMenu:hover{
+    border-left: 8px solid var(--m-primary-color);
+    cursor: pointer;
+}
+.borderMenu:active {
+    background-color: var(--m-bg-color-dark);
+    cursor: pointer;
+}
+
+
+.redesMenu{
+    font-size: 1.5rem;
+}
+.redesMenu a{
+    padding: 0.5rem;
+    
+}
+.redesMenu a:hover > i{
+    color: var(--m-muted-color-active);
+}
+
+/*BOOTSTRAP BASED*/
+.w-15 {
+    width: 15% !important;
+}
